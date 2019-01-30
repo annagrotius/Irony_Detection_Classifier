@@ -17,10 +17,10 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 
-In order to run this code, you will first need to download the packages/modules below by loading them into your command prompt 
-            Note: links to where these can be downloaded from have been included
+In order to run this code, you will first need to download the packages/modules below by loading them into your command line prompt. 
+            >>> Note: links to where these can be downloaded from have been included
 
-SpaCy:(https://spacy.io/usage/)
+SpaCy: (https://spacy.io/usage/)
 
 
 TextBlob: (https://textblob.readthedocs.io/en/dev/install.html)
@@ -30,12 +30,12 @@ Once these have been downloaded, please proceed with the following steps:
 ---
 STEPS:
 1) Download the dataset (link above) and save in the file directory you wish.
-            NOTE: This same file directory will be used for the entirety of the project. 
+            >>> Note: This same file directory will be used for the entirety of the project. 
             
 2) Download the files from this repository and remeber to save these in the same file directory as the dataset
 
 3) Run the 'irony_train.py' file on your desired Python environment, remembering to insert your file directory path at the very         top.
----- All visualisations and "master" tables should automatically be saved to your same file directory now.
+            >>>> Note: All visualisations and "master" tables should automatically be saved to your same file directory now.
    
 4) Run the "irony_validation.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.
 ---- Here you can pick and choose which features to include within the classifier and adjust their weighting.
