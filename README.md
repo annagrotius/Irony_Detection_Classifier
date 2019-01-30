@@ -2,7 +2,7 @@
 Final Assignment for Python
 
 The Dataset: Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
-Download: *********ENTER LINK HERE TO BE DOWNLOADED FROM
+Download: https://www.kaggle.com/rtatman/ironic-corpus "irony-labeled.csv" (193KB)
 
 This classifier is trained to detect irony through extracting specifically chosen linguistic features, which can be seen below:
 - (1) Average Word Count
@@ -17,10 +17,10 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 
-In order to run this code, you will first need to download the packages/modules below 
+In order to run this code, you will first need to download the packages/modules below by loading them into your command prompt 
             Note: links to where these can be downloaded from have been included
-SpaCy:*********
-TextBlob: *************
+SpaCy:(https://spacy.io/usage/)
+TextBlob: (https://textblob.readthedocs.io/en/dev/install.html)
 
 Once these have been downloaded, please proceed with the following steps:
 
@@ -72,4 +72,3 @@ For more information or any questions regarding the project, please contact the 
 
 Lauren Green    lauren.cgreen@yahoo.com
 Lisa Vasileva   liza.vasileva@gmail.com
-  
