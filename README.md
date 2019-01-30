@@ -30,15 +30,16 @@ Once these have been downloaded, please proceed with the following steps:
 ---
 STEPS:
 1) Download the dataset (link above) and save in the file directory you wish.
+            
             >>> Note: This same file directory will be used for the entirety of the project. 
             
 2) Download the files from this repository and remeber to save these in the same file directory as the dataset
 
 3) Run the 'irony_train.py' file on your desired Python environment, remembering to insert your file directory path at the very         top.
+            
             >>>> Note: All visualisations and "master" tables should automatically be saved to your same file directory now.
    
-4) Run the "irony_validation.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.
----- Here you can pick and choose which features to include within the classifier and adjust their weighting.
+4) Run the "irony_validation.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top. Here you can pick and choose which features to include within the classifier and adjust their weighting.
 
 5) Once you have selected which linguistic features to include, run the rest of the code to attain the accuracy score, which will be shown at the very bottom. The results will be saved in your file directory under the name "validation_classification_results.csv".
 
