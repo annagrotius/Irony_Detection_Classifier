@@ -19,7 +19,10 @@ This classifier is trained to detect irony through extracting specifically chose
 
 In order to run this code, you will first need to download the packages/modules below by loading them into your command prompt 
             Note: links to where these can be downloaded from have been included
+
 SpaCy:(https://spacy.io/usage/)
+
+
 TextBlob: (https://textblob.readthedocs.io/en/dev/install.html)
 
 Once these have been downloaded, please proceed with the following steps:
