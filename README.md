@@ -30,7 +30,7 @@ Once these have been downloaded, please proceed with the following steps:
 STEPS:
 1) Download the dataset (link above) and save in the file directory you wish.
             
-            >>> Note: This same file directory will be used for the entirety of the project. 
+            >>>> Note: This same file directory will be used for the entirety of the project. 
             
 2) Download the files from this repository and remeber to save these in the same file directory as the dataset
 
