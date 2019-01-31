@@ -44,9 +44,7 @@ STEPS:
 5) The results will be saved in your file directory under the name "test_classification_results.csv". The final accuracy score will be printed at the end of the script additionally.
 
 
-*** A validation script is also included within this repository and once run, the classification results are automatically saved in your directory, as "validation_classification_results.csv". The validation stage was used to select the most relevant linguistic features extracted within the training set and thereafter adjust their weighting. At the end of the script, the final accuracy score for the number of correctly predicted labels is printed. 
-
-
+*** A validation script is also included within this repository and once run, the classification results are automatically saved in your directory, as "validation_classification_results.csv". The validation stage was used to select the most relevant linguistic features extracted within the training set and thereafter adjust their weights. At the end of the script, the final accuracy score for the number of correctly predicted labels is printed. 
 
 ---
 FUNCTION INFORMATION
@@ -63,19 +61,30 @@ get_punct(listx)
 average_word_length(doc)
 
 average_sent_length(doc)
+
 check_sarcsymbol(doc)
+
 count_uppercase(doc)
+
 get_lemmas(doc)
+
 get_punct_average(punctuation_list, token_comment_list)
+
 get_lemmas(doc)
+
 get_sentiment(dicts)
+
 get_indiv_punct(doc)
+
 relative_count_wordtypes(doc)
+
 get_entities(doc)
 
-*CLASSIFICATION_STATS:
+<b> CLASSIFICATION_STATS: </b>
 get_classification_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
+
 get_classification_non_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
+
 final_predicition_results(feature_resultdf)
 accuracy(testdf)
 
