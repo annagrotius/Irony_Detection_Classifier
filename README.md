@@ -28,7 +28,7 @@ In order to run this code, you will first need to download the packages/modules 
 Once these have been downloaded, please proceed with the following steps:
 
 ---
-<b><u>STEPS: </b></u>
+STEPS: H1 
 1) Download the dataset (link above) and save in the file directory you wish.
             
             >>>> Note: This same file directory will be used for the entirety of the project. 
