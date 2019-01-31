@@ -2,6 +2,7 @@
 Final Assignment for Python
 
 The Dataset: Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
+
 Download: https://www.kaggle.com/rtatman/ironic-corpus "irony-labeled.csv" (193KB)
 
 This classifier is trained to detect irony through extracting specifically chosen linguistic features, which can be seen below:
