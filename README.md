@@ -1,7 +1,8 @@
 # Irony_RedditComments
 ### Final Assignment for Python
 
-<b>The Dataset:</b> Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
+<b>The Dataset:</b> 
+Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
 
 Download: https://www.kaggle.com/rtatman/ironic-corpus "irony-labeled.csv" (193KB)
 
