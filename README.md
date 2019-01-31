@@ -38,14 +38,12 @@ STEPS:
             
             >>>> Note: All visualisations and tables should automatically be saved to your same file directory now.
    
-4) Run the "irony_testing.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.***
+4) Run the "irony_test.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.***
 
-5) (()) The results will be saved in your file directory under the name "validation_classification_results.csv".
-
-6) The same process can then be undertaken on the final "irony_test.py" file, with the final result file being saved under the name "test_classification_results.csv". The final accuracy score will be printed at the end of the script additionally. 
+5) The results will be saved in your file directory under the name "test_classification_results.csv". The final accuracy score will be printed at the end of the script additionally.
 
 ***
-A validation script is also included. This dataset was used to pick and choose features to include within the classifier and adjust their weighting. You can also use this script and associated dataset: once you have selected which linguistic features to include, run the rest of the code to attain the accuracy score, which will be shown at the very bottom.
+A validation script is also included. This dataset was used to pick and choose features to include within the classifier and adjust their weighting. You can also use this script and associated dataset: once you have selected which linguistic features to include, run the rest of the code to attain the accuracy score, which will be shown at the very bottom. The results will be saved in your file directory under the name "validation_classification_results.csv".
 
 ---
 FUNCTION INFORMATION
