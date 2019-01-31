@@ -1,7 +1,7 @@
 # Irony_RedditComments
 Final Assignment for Python
 
-The Dataset: Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
+<b>The Dataset:</b> Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
 
 Download: https://www.kaggle.com/rtatman/ironic-corpus "irony-labeled.csv" (193KB)
 
@@ -20,15 +20,15 @@ This classifier is trained to detect irony through extracting specifically chose
 
 In order to run this code, you will first need to download the packages/modules below; these can be loaded into your command line prompt. Links to where these can be downloaded from have been included:
 
-SpaCy: (https://spacy.io/usage/)
+<i>SpaCy:</i> (https://spacy.io/usage/)
 
 
-TextBlob: (https://textblob.readthedocs.io/en/dev/install.html)
+<i>TextBlob:</i> (https://textblob.readthedocs.io/en/dev/install.html)
 
 Once these have been downloaded, please proceed with the following steps:
 
 ---
-STEPS:
+<b><u>STEPS: </b></u>
 1) Download the dataset (link above) and save in the file directory you wish.
             
             >>>> Note: This same file directory will be used for the entirety of the project. 
@@ -47,10 +47,10 @@ STEPS:
 *** A validation script is also included within this repository and once run, the classification results are automatically saved in your directory, as "validation_classification_results.csv". The validation stage was used to select the most relevant linguistic features extracted within the training set and thereafter adjust their weights. At the end of the script, the final accuracy score for the number of correctly predicted labels is printed. 
 
 ---
-FUNCTION INFORMATION
+<b><u>FUNCTION INFORMATION</b></u>
 Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief explanation regarding what each of them do and what parameters should be included.
 
-*FEATURE_STATS:
+<b>FEATURE_STATS:</b>
 
 get_all_tokens(test_dict)
 
@@ -80,7 +80,7 @@ relative_count_wordtypes(doc)
 
 get_entities(doc)
 
-<b> CLASSIFICATION_STATS: </b>
+<b>CLASSIFICATION_STATS:</b>
 get_classification_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
 
 get_classification_non_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
