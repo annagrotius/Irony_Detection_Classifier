@@ -28,7 +28,7 @@ In order to run this code, you will first need to download the packages/modules 
 Once these have been downloaded, please proceed with the following steps:
 
 ---
-# STEPS: 
+## STEPS: 
 1) Download the dataset (link above) and save in the file directory you wish.
             
             >>>> Note: This same file directory will be used for the entirety of the project. 
@@ -47,10 +47,10 @@ Once these have been downloaded, please proceed with the following steps:
 *** A validation script is also included within this repository and once run, the classification results are automatically saved in your directory, as "validation_classification_results.csv". The validation stage was used to select the most relevant linguistic features extracted within the training set and thereafter adjust their weights. At the end of the script, the final accuracy score for the number of correctly predicted labels is printed. 
 
 ---
-# FUNCTION INFORMATION
+## FUNCTION INFORMATION
 Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief explanation regarding what each of them do and what parameters should be included.
 
-## FEATURE_STATS:
+### FEATURE_STATS:
 
 get_all_tokens(test_dict)
 
@@ -80,7 +80,7 @@ relative_count_wordtypes(doc)
 
 get_entities(doc)
 
-## CLASSIFICATION_STATS:
+### CLASSIFICATION_STATS:
 get_classification_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
 
 get_classification_non_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
