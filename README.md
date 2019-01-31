@@ -42,8 +42,8 @@ STEPS:
 
 5) The results will be saved in your file directory under the name "test_classification_results.csv". The final accuracy score will be printed at the end of the script additionally.
 
-***
-A validation script is also included. This dataset was used to pick and choose features to include within the classifier and adjust their weighting. You can also use this script and associated dataset: once you have selected which linguistic features to include, run the rest of the code to attain the accuracy score, which will be shown at the very bottom. The results will be saved in your file directory under the name "validation_classification_results.csv".
+
+*** A validation script is also included. This dataset was used to pick and choose features to include within the classifier and adjust their weighting. You can also use this script and associated dataset: once you have selected which linguistic features to include, run the rest of the code to attain the accuracy score, which will be shown at the very bottom. The results will be saved in your file directory under the name "validation_classification_results.csv".
 
 ---
 FUNCTION INFORMATION
