@@ -18,7 +18,7 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 
-In order to run this code, you will first need to download the dataset itself as well as the packages/modules below; these can be loaded into your command line prompt. Links to where these can be downloaded from have been included:
+In order to run this code, you will first need to download the packages/modules below; these can be loaded into your command line prompt. Links to where these can be downloaded from have been included:
 
 SpaCy: (https://spacy.io/usage/)
 
