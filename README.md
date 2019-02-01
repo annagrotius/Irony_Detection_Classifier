@@ -19,7 +19,7 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 ----
-##NAVIGATION:
+## NAVIGATION:
 To navigate across the files on Github, the XX has been structured in the following way:
 
 <i>- Irony_classification_train</i>
@@ -33,7 +33,7 @@ To navigate across the files on Github, the XX has been structured in the follow
 <i>- classification_stats.py</i>
 
 
-###Train set summaries and visualisations [Folder]
+### Train set summaries and visualisations [Folder]
 
 
 <i>- train_summary_general.csv </i> [csv file]
@@ -48,7 +48,7 @@ To navigate across the files on Github, the XX has been structured in the follow
 
 
 
-###Validation set summaries and visualisations [Folder]
+### Validation set summaries and visualisations [Folder]
 
 
 <i>- icsv </i>
@@ -56,7 +56,7 @@ To navigate across the files on Github, the XX has been structured in the follow
 <i>- icsv </i>
 
 
-###Test set summaries and visualisations [Folder]
+### Test set summaries and visualisations [Folder]
 
 
 <i>- icsv </i>
@@ -64,7 +64,7 @@ To navigate across the files on Github, the XX has been structured in the follow
 <i>- icsv </i>
 
 
-###Classification Results [Folder]
+### Classification Results [Folder]
 
 
 <i>- validation_featureweights_result.csv </i>
