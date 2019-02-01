@@ -37,13 +37,19 @@ To navigate across the files on Github, the XX has been structured in the follow
 
 
 <i>- train_summary_general.csv </i> [csv file]
+
 <i>- train_summary_pos.csv </i> [csv file]
+
 <i>- train_summary_namedentity.csv </i> [csv file]
+
 <i>- train_summary_puncttype.csv </i> [csv file]
 
 <i>- train_summary_general.png </i> [image]
+
 <i>- train_summary_POS.png </i> [image]
+
 <i>- train_summary_NER.csv </i> [image]
+
 <i>- train_summary_punctuation.csv </i> [image]
 
 
@@ -51,17 +57,27 @@ To navigate across the files on Github, the XX has been structured in the follow
 ### Validation set summaries and visualisations [Folder]
 
 
-<i>- icsv </i>
 
-<i>- icsv </i>
+<i>- validation_summary_general.csv </i> [csv file]
+
+<i>- validation_summary_pos.csv </i> [csv file]
+
+<i>- validation_summary_namedentity.csv </i> [csv file]
+
+<i>- validation_summary_puncttype.csv </i> [csv file]
+
 
 
 ### Test set summaries and visualisations [Folder]
 
+<i>- test_summary_general.csv </i> [csv file]
 
-<i>- icsv </i>
+<i>- test_summary_pos.csv </i> [csv file]
 
-<i>- icsv </i>
+<i>- test_summary_namedentity.csv </i> [csv file]
+
+<i>- test_summary_puncttype.csv </i> [csv file]
+
 
 
 ### Classification Results [Folder]
