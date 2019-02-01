@@ -30,7 +30,7 @@ To navigate across the files on Github, the XX has been structured in the follow
 
 <i>- feature_stats.py </i>
 
-<i>- classification_stats.py</i?
+<i>- classification_stats.py</i>
 
 
 ###Train set summaries and visualisations [Folder]
