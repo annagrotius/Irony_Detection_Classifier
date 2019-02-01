@@ -1,4 +1,4 @@
-# Irony_RedditComments
+# Irony_Detection_Classifier
 ### Final Assignment for Python
 
 This project is a final assignment for the "Python for Text Analysis" course at Vrije Universiteit (VU), Amstedam, The Netherlands. The goal of this text classification project is to build a classifier for irony detection, with Reddit Comments as the dataset. 
