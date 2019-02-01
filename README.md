@@ -48,8 +48,8 @@ Once these have been downloaded, please proceed with the following steps:
 *** A validation script is also included within this repository and once run, the classification results are automatically saved in your directory, as "validation_classification_results.csv". The validation stage was used to select the most relevant linguistic features extracted within the training set and thereafter adjust their weights. At the end of the script, the final accuracy score for the number of correctly predicted labels is printed. 
 
 ---
-## FUNCTION INFORMATION
-Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files: 
+## FUNCTION INFORMATION:
+Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files***: 
 
 ### FEATURE_STATS:
 This module include 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
@@ -61,7 +61,8 @@ This module includes 4 functions, which are imported only within the validation 
 
 The third function, <i>final_predicition_results</i>, returns a final classification ("1" or -"1" for ironic or non-ironic) for the test subset. The final function, <i>accuracy</i> compares the prediction labels from previous functions and gold labels assigned to annotated comments and returns the accuracy of prediction labels.
 
-For more information regarding all of the functions, including parameter inputs, please see the relevant python script. You can also use the <i>help(*insert_function_name)</i> function within your chosen environment.
+*** For more information regarding all of the functions, including parameter inputs, please see the relevant python script. You can also use the <i>help(*insert_function_name)</i> function within your chosen environment.
+
 ---
 For more information or any questions regarding the project, please contact the following person(s):
 
