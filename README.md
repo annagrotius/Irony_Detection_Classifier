@@ -49,45 +49,17 @@ Once these have been downloaded, please proceed with the following steps:
 
 ---
 ## FUNCTION INFORMATION
-Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief explanation regarding what each of them do and what parameters should be included.
+Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files: 
 
 ### FEATURE_STATS:
-
-get_all_tokens(test_dict)
-
-get_words(listx)
-
-get_punct(listx)
-
-average_word_length(doc)
-
-average_sent_length(doc)
-
-check_sarcsymbol(doc)
-
-count_uppercase(doc)
-
-get_lemmas(doc)
-
-get_punct_average(punctuation_list, token_comment_list)
-
-get_lemmas(doc)
-
-get_sentiment(dicts)
-
-get_indiv_punct(doc)
-
-relative_count_wordtypes(doc)
-
-get_entities(doc)
+This module include 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
 
 ### CLASSIFICATION_STATS:
-get_classification_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
+This module includes 4 functions, which are imported only within the validation and test subsets. Two are used to calculate the values
 
-get_classification_non_ironic(masterdf, newdf, mastercolumnindex_number, newcolumnindexnumber, weight)
 
-final_predicition_results(feature_resultdf)
-accuracy(testdf)
+one is for this
+
 
 ---
 For more information or any questions regarding the project, please contact the following person(s):
