@@ -110,15 +110,15 @@ Once these have been downloaded, please proceed with the following steps:
 ## STEPS: 
 1) Download the dataset (link above) and save in the file directory you wish.
             
-            >>>> Note: This same file directory will be used for the entirety of the project. 
+            >>>> Note: This same file directory should be used for the entirety of the project. 
             
-2) Download the python scripts from this repository in the main section and remeber to save these in the same file directory as the dataset
+2) Download the python scripts from this repository in the main section and remeber to save these in the same file directory as the dataset.
 
 3) Run the 'irony_train.py' file on your desired Python environment, remembering to insert your file directory path at the very         top.
             
             >>>> Note: All visualisations and tables should automatically be saved to your same file directory now.
    
-4) Run the "irony_test.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.***
+4) Run the "irony_test.py" file on your desired Python environment, remembering again to insert the same file directory path at the very top.***<i>see below</i>
 
 5) The results will be saved in your file directory under the name "test_classification_results.csv". The final accuracy score will be printed at the end of the script additionally.
 
