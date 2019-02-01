@@ -21,27 +21,48 @@ This classifier is trained to detect irony through extracting specifically chose
 
 The XX has been structured in the following way:
 
-*- Irony_classification_train
-*- Irony_classification_validation
-*- Irony_classification_test
-*- feature_stats.py
-*- classification_stats.py
+<i>- Irony_classification_train</i>
+
+<i>- Irony_classification_validation</i>
+
+<i>- Irony_classification_test </i>
+
+<i>- feature_stats.py </i>
+
+<i>- classification_stats.py</i?
+
 
 Train set summaries and visualisations
-*- icsv
-*- howenew
-*- bioew
+<i>- icsv </i>
+
+<i>- icsv </i>
+
+<i>- icsv </i>
+
 
 Validation set summaries and visualisations
-*- ewniofew
-*- noiew
+<i>- icsv </i>
+
+<i>- icsv </i>
+
+<i>- icsv </i>
+
+
 * Test set summaries and visualisations
-*- ewniofew
-*- noiew
+<i>- icsv </i>
+
+<i>- icsv </i>
+
+<i>- icsv </i>
+
 
 * Classification Results
-*- ewniofew
-*- noiew
+<i>- icsv </i>
+
+<i>- icsv </i>
+
+<i>- icsv </i>
+
 
 
 ---
