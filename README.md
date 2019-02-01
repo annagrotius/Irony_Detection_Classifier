@@ -19,6 +19,33 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 
+The XX has been structured in the following way:
+
+*- Irony_classification_train
+*- Irony_classification_validation
+*- Irony_classification_test
+*- feature_stats.py
+*- classification_stats.py
+
+Train set summaries and visualisations
+*- icsv
+*- howenew
+*- bioew
+
+Validation set summaries and visualisations
+*- ewniofew
+*- noiew
+* Test set summaries and visualisations
+*- ewniofew
+*- noiew
+
+* Classification Results
+*- ewniofew
+*- noiew
+
+
+---
+
 In order to run this code, you will first need to download the packages/modules below; these can be loaded into your command line prompt. Links to where these can be downloaded from have been included:
 
 <i>SpaCy:</i> (https://spacy.io/usage/)
