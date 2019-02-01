@@ -19,7 +19,7 @@ This classifier is trained to detect irony through extracting specifically chose
 - (10) Named Entity Count
 
 
-The XX has been structured in the following way:
+To navigate across the files on Github, the XX has been structured in the following way:
 
 <i>- Irony_classification_train</i>
 
@@ -32,7 +32,22 @@ The XX has been structured in the following way:
 <i>- classification_stats.py</i?
 
 
-Train set summaries and visualisations
+Train set summaries and visualisations [Folder]
+
+
+<i>- train_summary_general.csv </i> [csv file]
+<i>- train_summary_pos.csv </i> [csv file]
+<i>- train_summary_namedentity.csv </i> [csv file]
+<i>- train_summary_puncttype.csv </i> [csv file]
+
+<i>- train_summary_general.png </i> [image]
+<i>- train_summary_POS.png </i> [image]
+<i>- train_summary_NER.csv </i> [image]
+<i>- train_summary_punctuation.csv </i> [image]
+
+
+
+Validation set summaries and visualisations [Folder]
 
 
 <i>- icsv </i>
@@ -40,7 +55,7 @@ Train set summaries and visualisations
 <i>- icsv </i>
 
 
-Validation set summaries and visualisations
+* Test set summaries and visualisations [Folder]
 
 
 <i>- icsv </i>
@@ -48,15 +63,7 @@ Validation set summaries and visualisations
 <i>- icsv </i>
 
 
-* Test set summaries and visualisations
-
-
-<i>- icsv </i>
-
-<i>- icsv </i>
-
-
-* Classification Results
+* Classification Results [Folder]
 
 
 <i>- validation_featureweights_result.csv </i>
