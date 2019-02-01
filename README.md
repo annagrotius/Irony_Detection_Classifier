@@ -131,11 +131,15 @@ Included within this repository are two files entitled "feature_stats.py" and "c
 This module include 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
 
 ### CLASSIFICATION_STATS:
-This module includes 4 functions, which are imported only within the validation and test subsets. Two are used to calculate the distance between the features to return the feature weight for each comment. The first one <i>get_classification_ironic</i>, performs the calculation against ironic comments (for row index [0]) and the second one <i>get_classification_non_ironic</i>, against non-ironic comments (for row index [1]).
+This module includes 4 functions, which are imported only within the validation and test subsets. Two are used to calculate the distance between the features to return the feature weight for each comment. The first one <i>get_classification_ironic</i>, performs the calculation against ironic comments (for row index [0]) and the second one <i>get_classification_non_ironic</i>, against non-ironic comments (for row index [1]). Please see below for the applicable formula:
 
 ![11](https://user-images.githubusercontent.com/46754140/52124124-84331b80-2628-11e9-91da-2441048c0c6b.JPG)
 
-The third function, <i>final_predicition_results</i>, returns a final classification ("1" or -"1" for ironic or non-ironic) for the test subset. The final function, <i>accuracy</i> compares the prediction labels from previous functions and gold labels assigned to annotated comments and returns the accuracy of prediction labels.
+The third function, <i>final_predicition_results</i>, returns a final classification ("1" or -"1" for ironic or non-ironic) for the test subset, which has been based on the formula below:
+
+![finalprediction_formula](https://user-images.githubusercontent.com/44449955/52131095-3b855d80-263c-11e9-8916-e038740e8292.PNG)
+
+The final function, <i>accuracy</i> compares the prediction labels from previous functions and gold labels assigned to annotated comments and returns the accuracy of prediction labels.
 
 *** For more information regarding all of the functions, including parameter inputs, please see the relevant python script. You can also use the <i>help(*insert_function_name)</i> function within your chosen environment.
 
