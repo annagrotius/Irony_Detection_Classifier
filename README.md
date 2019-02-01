@@ -2,10 +2,9 @@
 ### Final Assignment for Python
 
 This project is a final assignment for the "Python for Text Analysis" course at Vrije Universiteit (VU), Amstedam, The Netherlands. The goal of this text classification project is to build a classifier for irony detection, with Reddit Comments as the dataset. 
----
-<b>The Dataset:</b> 
 
-Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
+---
+<b>The Dataset:</b> Reddit Comments pre-labelled with Ironic (-1) and Non-Ironic (1)
 
 Download: https://www.kaggle.com/rtatman/ironic-corpus "irony-labeled.csv" (193KB)
 
