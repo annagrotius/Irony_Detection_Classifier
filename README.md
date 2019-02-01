@@ -33,7 +33,7 @@ The XX has been structured in the following way:
 
 
 Train set summaries and visualisations
-<i>- icsv </i>
+
 
 <i>- icsv </i>
 
@@ -41,7 +41,7 @@ Train set summaries and visualisations
 
 
 Validation set summaries and visualisations
-<i>- icsv </i>
+
 
 <i>- icsv </i>
 
@@ -49,7 +49,7 @@ Validation set summaries and visualisations
 
 
 * Test set summaries and visualisations
-<i>- icsv </i>
+
 
 <i>- icsv </i>
 
@@ -57,11 +57,15 @@ Validation set summaries and visualisations
 
 
 * Classification Results
-<i>- icsv </i>
 
-<i>- icsv </i>
 
-<i>- icsv </i>
+<i>- validation_featureweights_result.csv </i>
+
+<i>- validation_classification_result.csv </i>
+
+<i>- test_featureweights_result.csv </i>
+
+<i>- test_classification_result.csv </i>
 
 
 
