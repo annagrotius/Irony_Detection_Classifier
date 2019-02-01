@@ -133,7 +133,7 @@ This module include 13 functions, all of which are used within each of the subse
 ### CLASSIFICATION_STATS:
 This module includes 4 functions, which are imported only within the validation and test subsets. Two are used to calculate the distance between the features to return the feature weight for each comment. The first one <i>get_classification_ironic</i>, performs the calculation against ironic comments (for row index [0]) and the second one <i>get_classification_non_ironic</i>, against non-ironic comments (for row index [1]). Please see below for the applicable formula:
 
-![11](https://user-images.githubusercontent.com/46754140/52124124-84331b80-2628-11e9-91da-2441048c0c6b.JPG)
+![classification_formula](https://user-images.githubusercontent.com/44449955/52131227-8e5f1500-263c-11e9-9949-2b429412b805.PNG)
 
 The third function, <i>final_predicition_results</i>, returns a final classification ("1" or -"1" for ironic or non-ironic) for the test subset, which has been based on the formula below:
 
