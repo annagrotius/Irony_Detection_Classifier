@@ -20,7 +20,7 @@ This classifier is trained to detect irony through extracting specifically chose
 
 ----
 ## NAVIGATION:
-To navigate across the files on Github, the XX has been structured in the following way:
+To navigate across the project files on Github, the project has been structured in the following way:
 
 <i>- Irony_classification_train</i>
 
@@ -48,9 +48,9 @@ To navigate across the files on Github, the XX has been structured in the follow
 
 <i>- train_summary_POS.png </i> [image]
 
-<i>- train_summary_NER.csv </i> [image]
+<i>- train_summary_NER.png </i> [image]
 
-<i>- train_summary_punctuation.csv </i> [image]
+<i>- train_summary_punctuation.png </i> [image]
 
 
 
