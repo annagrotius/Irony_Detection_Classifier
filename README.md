@@ -22,11 +22,11 @@ This classifier is trained to detect irony through extracting specifically chose
 ## NAVIGATION:
 To navigate across the project files on Github, the project has been structured in the following way:
 
-<i>- Irony_classification_train</i>
+<i>- Irony_classification_train.py</i>
 
-<i>- Irony_classification_validation</i>
+<i>- Irony_classification_validation.py</i>
 
-<i>- Irony_classification_test </i>
+<i>- Irony_classification_test.py </i>
 
 <i>- feature_stats.py </i>
 
