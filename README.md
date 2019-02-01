@@ -127,7 +127,7 @@ Once these have been downloaded, please proceed with the following steps:
 
 ---
 ## FUNCTION INFORMATION:
-Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files***: 
+Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files***<i>see below</i>: 
 
 ### FEATURE_STATS:
 This module include 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
@@ -143,7 +143,7 @@ The third function, <i>final_predicition_results</i>, returns a final classifica
 
 The final function, <i>accuracy</i> compares the prediction labels from previous functions and gold labels assigned to annotated comments and returns the accuracy of prediction labels.
 
-*** For more information regarding all of the functions, including parameter inputs, please see the relevant python script. You can also use the <i>help(*insert_function_name)</i> function within your chosen environment.
+*** Additional details for all of the functions, including parameter inputs, please see the relevant python script. You can also use the <i>"help(*insert_function_name)"</i> function within your chosen environment.
 
 ---
 For more information or any questions regarding the project, please contact the following person(s):
