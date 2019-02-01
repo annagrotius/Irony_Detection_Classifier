@@ -112,7 +112,7 @@ Once these have been downloaded, please proceed with the following steps:
             
             >>>> Note: This same file directory will be used for the entirety of the project. 
             
-2) Download the files from this repository and remeber to save these in the same file directory as the dataset
+2) Download the python scripts from this repository in the main section and remeber to save these in the same file directory as the dataset
 
 3) Run the 'irony_train.py' file on your desired Python environment, remembering to insert your file directory path at the very         top.
             
