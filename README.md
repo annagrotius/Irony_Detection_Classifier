@@ -130,7 +130,7 @@ Once these have been downloaded, please proceed with the following steps:
 Included within this repository are two files entitled "feature_stats.py" and "classification_stats.py", which include all the functions used within the project. Below will give you a brief overview of the two files***<i>see below</i>: 
 
 ### FEATURE_STATS:
-This module include 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
+This module includes 13 functions, all of which are used within each of the subsets (train, validation & test). These are used to both preprocess the raw text, extract the specific linguistic features mentioned above, as well as return the releveant statistics.   
 
 ### CLASSIFICATION_STATS:
 This module includes 4 functions, which are imported only within the validation and test subsets. Two are used to calculate the distance between the features to return the feature weight for each comment. The first one <i>get_classification_ironic</i>, performs the calculation against ironic comments (for row index [0]) and the second one <i>get_classification_non_ironic</i>, against non-ironic comments (for row index [1]). Please see below for the applicable formula:
